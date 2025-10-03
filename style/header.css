@@ -1,0 +1,60 @@
+header {
+  background-image: url(../assets/Background_Intro.png);
+  padding: 80px;
+  display: grid;
+  gap: 56px;
+}
+
+.perfil {
+  display: grid;
+  width: 87.27px;
+  height: 87.27px;
+  object-fit: cover;
+  border-radius: 9999px;
+  justify-self: center;
+  margin-bottom: 56px;
+  /* gap: 56px; */
+  
+}
+
+.perfil {
+  border: var(--red) solid 2px ;
+  width: 96px;
+  height: 96px;
+  padding: 4.36px;
+  
+}
+
+#title {
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+  padding-bottom: 80px;
+}
+
+p {
+  text-align: center;
+  width: 680px;
+  height: 40px;
+}
+
+.logos {
+  display: grid;
+  gap: 16px;
+  grid-auto-flow: column;
+  justify-self: center;
+  justify-content: space-between;
+}
+
+figure {
+  border: solid var(--gray-400);
+  border-radius: 999px;
+  background-color: var(--gray-400);
+  width: 114px;
+}
+
+figure img {
+  display: grid;
+  justify-self: center;
+}
+
