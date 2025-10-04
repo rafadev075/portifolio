@@ -27,6 +27,9 @@
   --text-sm: 400 14px/140% var(--font-family-3);
 }
 
+body {
+  /* display: flex; */
+}
 
 
 h1 {
@@ -46,3 +49,10 @@ h2 {
   font: var(--text-sm);
   color: var(--gray-300);
  }
+
+ figcaption {
+  display: grid;
+  font: var(--text-md);
+  color: var(--gray-200);
+}
+
