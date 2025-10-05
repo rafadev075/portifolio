@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 :root {
   --red: #E3646E;
   --purple: #BB72E9;
@@ -28,31 +33,45 @@
 }
 
 body {
-  /* display: flex; */
+  max-width: 100vw;
 }
+
 
 
 h1 {
  font: var(--title-lg);
- color: var(--gray-100);  
+ color: var(--gray-100); 
+  
 }
 
 h2 {
+ font: var(--title-md);
+  justify-self: center;
+ color: var(--gray-100); 
+}
+
+h3 {
   font: var(--subt);
   color: var(--gray-200);
+  justify-self: center;
 }
- h2>span {
+
+h3>span {
   color: var(--red);
- }
+}
+
+.name {
+  font-size: 1.1em;
+  
+}
 
  p {
   font: var(--text-sm);
   color: var(--gray-300);
  }
 
- figcaption {
-  display: grid;
-  font: var(--text-md);
-  color: var(--gray-200);
-}
+ 
+
+
+
 
