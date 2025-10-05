@@ -171,6 +171,7 @@ figure img {
   background-image: url(../assets/Background_Contacts.png);
   background-size: cover;
   height: 787px;
+  padding-top: 123px;
 
 }
 
@@ -268,6 +269,39 @@ figure.work {
   font: var(--text-md);
   padding-top: 23px;
 }
+
+#services {
+  background: var(--gray-600);
+  padding: 88px 120px 120px 120px;
+}
+
+.my-services {
+  border: solid var(--gray-400);
+  border-radius: 12px;
+  width: 280px;
+  height: 155px;
+  /* gap: 20px; */
+  /* justify-content: center; */
+}
+
+.srv {
+  display: grid;
+  font: var(--title-sm);
+  color: var(--gray-100);
+  justify-content: start;
+  height: 20px;
+}
+
+.srv2 {
+  display: grid;
+  font: var(--text-sm);
+  color: var(--gray-200);
+  justify-content: start;
+  padding-inline: 12px;
+  text-align: justify; 
+  height: 20px;
+}
+
 
 /* .seta {
   display: grid;
