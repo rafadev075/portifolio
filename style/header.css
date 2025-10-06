@@ -79,9 +79,7 @@ p {
   }
 }
 
-.logos figure:nth-child(2) {
-  
-}
+
 
 figure {
   border: solid var(--gray-400);
@@ -107,10 +105,7 @@ figure.htmll {
   height: 40px;
 }
 
-.cor-html {
-  
 
-}
 
 figure.csss {
   border: solid var(--gray-400);
