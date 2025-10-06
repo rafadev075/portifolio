@@ -11,6 +11,44 @@ header#primary {
   
 }
 
+#pai {
+  display: grid;
+  /* margin-top: px; */
+  width: 1040px;
+  height: 447px;
+  justify-self: center;
+  margin: auto;
+}
+
+#pai2 {
+  display: grid;
+  background-color: var(--gray-500);
+  justify-content: center;
+  /* width: 1040px; */
+  /* height: 917px; */
+  padding: 72px 120px 144px 120px;
+}
+
+#pai3 {
+  background-image: url(../assets/Background_Contacts.png);
+  background-size: cover;
+  height: 787px;
+  padding-top: 123px;
+
+}
+
+#title {
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+  padding-bottom: 80px;
+}
+
+#services {
+  background: var(--gray-600);
+  padding: 88px 120px 120px 120px;
+}
+
 .perfil {
   display: flex;
   width: 100%;
@@ -48,14 +86,6 @@ header#primary {
 
 }
 
-#title {
-  display: grid;
-  justify-items: center;
-  gap: 20px;
-  padding-bottom: 80px;
-  
-}
-
 p {
   text-align: center;
   width: 680px;
@@ -79,9 +109,7 @@ p {
   }
 }
 
-
-
-figure {
+figure.git {
   border: solid var(--gray-400);
   border-radius: 999px;
   background-color: var(--gray-400);
@@ -103,6 +131,7 @@ figure.htmll {
   background-color: var(--gray-400);
   width: 110px;
   height: 40px;
+  padding-left: 16px;
 }
 
 
@@ -113,6 +142,7 @@ figure.csss {
   background-color: var(--gray-400);
   width: 99px;
   height: 40px;
+  padding-left: 16px;
 }
 
 figure.javaa {
@@ -121,6 +151,7 @@ figure.javaa {
   background-color: var(--gray-400);
   width: 150px;
   height: 40px;
+  padding-left: 16px;
 }
 
 figure.reactt {
@@ -129,6 +160,7 @@ figure.reactt {
   background-color: var(--gray-400);
   width: 110px;
   height: 40px;
+  padding-left: 16px;
 }
 
 figure.jss {
@@ -137,6 +169,7 @@ figure.jss {
   background-color: var(--gray-400);
   width: 125px;
   height: 40px;
+  padding-left: 16px;
 }
 
 
@@ -156,32 +189,6 @@ figure.jss {
   /* padding-bottom: 57px; */
 }
 
-#pai {
-  display: grid;
-  margin-top: px;
-  width: 1040px;
-  height: 447px;
-  justify-self: center;
-  margin: auto;
-}
-
-#pai2 {
-  display: grid;
-  background-color: var(--gray-500);
-  justify-content: center;
-  /* width: 1040px; */
-  /* height: 917px; */
-  padding: 72px 120px 144px 120px;
-}
-
-#pai3 {
-  background-image: url(../assets/Background_Contacts.png);
-  background-size: cover;
-  height: 787px;
-  padding-top: 123px;
-
-}
-
 .my-work {
   color: var(--red);
 }
@@ -193,14 +200,16 @@ figure.jss {
   padding-bottom: 56px;
 }
 
-figure.work {
+.work {
   border: solid var(--gray-400);
   border-radius: 12px;
+  background-color: var(--gray-400);
   width: 330px;
   height: 280px;
   color: var(--gray-200);
   gap: 20px;
-  /* justify-content: center; */
+  justify-content: center;
+  padding: 12px;
 }
 
 .worky {
@@ -210,7 +219,7 @@ figure.work {
   height: 156px;
   border-radius: 8px;
   justify-self: center;
-  margin: 12px;
+  
 }
 
 .image-work {
@@ -223,7 +232,6 @@ figure.work {
   display: grid;
   font: var(--title-md);
   color: var(--gray-100);
-  padding-inline: 12px;
   justify-content: start;
 }
 
@@ -232,7 +240,6 @@ figure.work {
   font: var(--text-sm);
   color: var(--gray-200);
   justify-content: start;
-  padding-inline: 12px;
   text-align: justify;
 }
 
@@ -283,11 +290,6 @@ figure.work {
   gap: 12px ;
   font: var(--text-md);
   padding-top: 20px;
-}
-
-#services {
-  background: var(--gray-600);
-  padding: 88px 120px 120px 120px;
 }
 
 .my-services {
