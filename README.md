@@ -1,0 +1,3 @@
+minha primeira vez criando um portfólio sem ficar "copiando" codigo de aulas, estou muito feliz com a minha evolução.
+futuramente pretendo melhorar esse portfólio quando aprender mais...
+<img width="1884" height="894" alt="Captura de tela 2025-10-06 001325" src="https://github.com/user-attachments/assets/7737c355-4547-4dfe-8857-11d4b70d72a0" />
