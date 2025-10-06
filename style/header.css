@@ -68,15 +68,29 @@ p {
   grid-auto-flow: column;
   justify-self: center;
   justify-content: space-between;
+  img {
+    width: 24px;
+    height: 24px;
+  }
+
+  span {
+    padding-right: 16px;
+    padding-left: 8px;
+  }
+}
+
+.logos figure:nth-child(2) {
+  
 }
 
 figure {
   border: solid var(--gray-400);
   border-radius: 999px;
   background-color: var(--gray-400);
-  width: 114px;
+  width: 116px;
   height: 40px;
   color: var(--gray-200);
+  padding-left: 16px;
 }
 
  figcaption {
@@ -89,16 +103,20 @@ figure.htmll {
   border: solid var(--gray-400);
   border-radius: 999px;
   background-color: var(--gray-400);
-  width: 105px;
+  width: 110px;
   height: 40px;
-  fill: var(--red);
+}
+
+.cor-html {
+  
+
 }
 
 figure.csss {
   border: solid var(--gray-400);
   border-radius: 999px;
   background-color: var(--gray-400);
-  width: 92px;
+  width: 99px;
   height: 40px;
 }
 
@@ -106,7 +124,7 @@ figure.javaa {
   border: solid var(--gray-400);
   border-radius: 999px;
   background-color: var(--gray-400);
-  width: 138px;
+  width: 150px;
   height: 40px;
 }
 
@@ -114,7 +132,7 @@ figure.reactt {
   border: solid var(--gray-400);
   border-radius: 999px;
   background-color: var(--gray-400);
-  width: 106px;
+  width: 110px;
   height: 40px;
 }
 
@@ -122,17 +140,11 @@ figure.jss {
   border: solid var(--gray-400);
   border-radius: 999px;
   background-color: var(--gray-400);
-  width: 119px;
+  width: 125px;
   height: 40px;
 }
 
-figure img {
-  display: grid;
-  justify-self: center;
-  width: 24px;
-  height: 24px;
-  gap: 16px;
-}
+
 
 .lg {
   display: grid;
@@ -260,14 +272,22 @@ figure.work {
   padding-bottom: 16px;
 }
 
+.seta {
+   display: grid;
+   justify-items: end;
+   align-self: center;
+   justify-self: end;
+}
+
 
 .social {
-  display: flex;
+  display: grid;
+  grid-template-columns: 28px 1fr 20px;
   align-items: center;
   padding-inline: 20px;
   gap: 12px ;
   font: var(--text-md);
-  padding-top: 23px;
+  padding-top: 20px;
 }
 
 #services {
@@ -303,11 +323,6 @@ figure.work {
 }
 
 
-/* .seta {
-  display: grid;
-  justify-self: end;
-  
-} */
 
 
 
