@@ -1,3 +1,152 @@
 @import url(global.css);
 @import url(header.css);
 @import url(utility.css);
+
+
+/* =========================
+   🌐 RESPONSIVIDADE GERAL
+   ========================= */
+@media (max-width: 1024px) {
+  header#primary {
+    padding: 40px 60px;
+    gap: 40px;
+  }
+
+  #pai {
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+
+  .respon {
+    width: 100%;
+    padding: 0;
+    grid-template-columns: 1fr;
+    /* margin: auto; */
+    padding: 24px 46px;
+  }
+
+  p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .logos {
+    grid-auto-flow: row;
+    justify-content: center;
+    gap: 12px;
+  }
+}
+
+/* =========================
+   📱 TABLETS
+   ========================= */
+@media (max-width: 768px) {
+  header#primary {
+    padding: 32px 24px;
+  }
+
+  #pai {
+    width: 100%;
+    height: auto;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .respon {
+    width: 100%;
+    padding: 0;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    /* margin: auto; */
+    padding: 24px 46px;
+    align-items: center;
+  }
+
+ 
+
+  .perfil {
+    width: 120px;
+    height: 120px;
+  }
+
+  #title h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  #title p {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+
+  .logos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* =========================
+   📲 CELULARES
+   ========================= */
+@media (max-width: 480px) {
+  header#primary {
+    padding: 24px 16px;
+  }
+
+  #pai {
+    width: 100%;
+    padding: 0;
+    grid-template-columns: 1fr;
+  }
+
+  /* #pai2 {
+    width: 100%;
+    padding: 0;
+    grid-template-columns: 1fr;
+  } */
+
+   .respon {
+    width: 100%;
+    padding: 0;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    /* margin: auto; */
+    padding: 24px 46px;
+    align-items: center;
+  }
+
+
+  .perfil {
+    width: 96px;
+    height: 96px;
+  }
+
+  #title h1 {
+    font-size: 1.5rem;
+  }
+
+  #title h3 {
+    font-size: 1rem;
+  }
+
+  #title p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .logos {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  #services {
+    padding: 48px 24px;
+  }
+}
+
+/* =========================
+   🧭 PREVENIR ROLAGEM LATERAL
+   ========================= */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
