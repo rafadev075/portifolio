@@ -47,3 +47,8 @@
 .gap-20 {
   gap: 20px;
 }
+
+.ic-pc {
+  width: 88px;  
+  height: 88px;
+}

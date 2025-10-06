@@ -20,16 +20,32 @@ header#primary {
   margin: auto;
 }
 
-#pai2 {
+#section-works {
   display: grid;
   background-color: var(--gray-500);
   justify-content: center;
   /* width: 1040px; */
   /* height: 917px; */
   padding: 72px 120px 144px 120px;
+
+  a {
+    text-decoration: none;
+  }
+
+  .button {
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 50px var(--gray-300);
+  }
 }
 
-#pai3 {
+#section-contact {
   background-image: url(../assets/Background_Contacts.png);
   background-size: cover;
   height: 787px;
@@ -230,10 +246,12 @@ figure.jss {
 
 .wk {
   display: grid;
-  font: var(--title-md);
+  font: var(--title-sm);
   color: var(--gray-100);
   justify-content: start;
+  padding-top: 10px;
 }
+
 
 .wk2 {
   display: grid;
